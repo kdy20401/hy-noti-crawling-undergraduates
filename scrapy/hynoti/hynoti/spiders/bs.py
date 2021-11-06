@@ -9,6 +9,5 @@ class BsSpider(scrapy.Spider):
     allowed_domains =['bizug.hanyang.ac.kr']
     start_urls = ['http://bizug.hanyang.ac.kr/-3']
 
-    # TODO
     def parse(self, response):
         pass
