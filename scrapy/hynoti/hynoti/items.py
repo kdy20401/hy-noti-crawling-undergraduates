@@ -17,3 +17,6 @@ class CseItem(NoticeItem):
 
 class BsItem(NoticeItem):
     pass
+
+class MeItem(NoticeItem):
+    pass

@@ -17,7 +17,8 @@ NEWSPIDER_MODULE = 'hynoti.spiders'
 #USER_AGENT = 'hynoti (+http://www.yourdomain.com)'
 
 # do not print log messages on terminal
-LOG_ENABLED = False
+# LOG_ENABLED = False
+# LOG_ENABLED = True
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
@@ -69,7 +70,7 @@ MONGO_DATABASE = 'notice'
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   # 'hynoti.pipelines.HynotiPipeline': 300,
+   'hynoti.pipelines.HynotiPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
